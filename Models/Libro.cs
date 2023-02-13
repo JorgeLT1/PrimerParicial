@@ -6,6 +6,6 @@ public class Libro
     public int LibroId { get; set; }
 
     [Required(ErrorMessage = "Error, favor intente de nuevo")]
-    public string Titulo { get; set; }
-    public double Precio { get; set; }
+    public string? Titulo { get; set; }
+    public double? Precio { get; set; }
 }
