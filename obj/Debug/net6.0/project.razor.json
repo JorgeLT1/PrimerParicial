@@ -124,6 +124,43 @@
         }
       },
       {
+        "HashCode": -1197426488,
+        "Kind": "Components.Component",
+        "Name": "PrimerParcial.Pages.Registro.R_Libro",
+        "AssemblyName": "PrimerParcial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Libro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
+          "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
+          "Common.TypeNameIdentifier": "R_Libro"
+        }
+      },
+      {
+        "HashCode": -1394302294,
+        "Kind": "Components.Component",
+        "Name": "PrimerParcial.Pages.Registro.R_Libro",
+        "AssemblyName": "PrimerParcial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PrimerParcial.Pages.Registro.R_Libro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
+          "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
+          "Common.TypeNameIdentifier": "R_Libro",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 589623587,
         "Kind": "Components.Component",
         "Name": "PrimerParcial.App",
@@ -18767,6 +18804,11 @@
       "FilePath": "c:\\Users\\Jorge\\Desktop\\PrimerParcial\\Pages\\_Layout.cshtml",
       "TargetPath": "Pages\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge\\Desktop\\PrimerParcial\\Pages\\Registro\\R_Libro.razor",
+      "TargetPath": "Pages\\Registro\\R_Libro.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\Jorge\\Desktop\\PrimerParcial\\Pages\\Index.razor",
