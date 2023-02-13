@@ -87,6 +87,43 @@
         }
       },
       {
+        "HashCode": -2131443693,
+        "Kind": "Components.Component",
+        "Name": "PrimerParcial.Pages.Index",
+        "AssemblyName": "PrimerParcial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PrimerParcial.Pages.Index",
+          "Common.TypeNamespace": "PrimerParcial.Pages",
+          "Common.TypeNameIdentifier": "Index"
+        }
+      },
+      {
+        "HashCode": 295443860,
+        "Kind": "Components.Component",
+        "Name": "PrimerParcial.Pages.Index",
+        "AssemblyName": "PrimerParcial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PrimerParcial.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PrimerParcial.Pages.Index",
+          "Common.TypeNamespace": "PrimerParcial.Pages",
+          "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1200274646,
         "Kind": "Components.Component",
         "Name": "PrimerParcial.Pages.Registro.R_Libro",
@@ -142,43 +179,6 @@
           "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
           "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
           "Common.TypeNameIdentifier": "R_Libro",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2131443693,
-        "Kind": "Components.Component",
-        "Name": "PrimerParcial.Pages.Index",
-        "AssemblyName": "PrimerParcial",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PrimerParcial.Pages.Index",
-          "Common.TypeNamespace": "PrimerParcial.Pages",
-          "Common.TypeNameIdentifier": "Index"
-        }
-      },
-      {
-        "HashCode": 295443860,
-        "Kind": "Components.Component",
-        "Name": "PrimerParcial.Pages.Index",
-        "AssemblyName": "PrimerParcial",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PrimerParcial.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PrimerParcial.Pages.Index",
-          "Common.TypeNamespace": "PrimerParcial.Pages",
-          "Common.TypeNameIdentifier": "Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
