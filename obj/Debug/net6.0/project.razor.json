@@ -13,43 +13,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1930747641,
-        "Kind": "Components.Component",
-        "Name": "PrimerParcial.Pages.Registro.R_Libro",
-        "AssemblyName": "PrimerParcial",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "R_Libro"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
-          "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
-          "Common.TypeNameIdentifier": "R_Libro"
-        }
-      },
-      {
-        "HashCode": 1806728883,
-        "Kind": "Components.Component",
-        "Name": "PrimerParcial.Pages.Registro.R_Libro",
-        "AssemblyName": "PrimerParcial",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PrimerParcial.Pages.Registro.R_Libro"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
-          "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
-          "Common.TypeNameIdentifier": "R_Libro",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -38531229,
         "Kind": "Components.Component",
         "Name": "PrimerParcial.Pages.Counter",
@@ -157,6 +120,43 @@
           "Common.TypeName": "PrimerParcial.Pages.Index",
           "Common.TypeNamespace": "PrimerParcial.Pages",
           "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1930747641,
+        "Kind": "Components.Component",
+        "Name": "PrimerParcial.Pages.Registro.R_Libro",
+        "AssemblyName": "PrimerParcial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Libro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
+          "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
+          "Common.TypeNameIdentifier": "R_Libro"
+        }
+      },
+      {
+        "HashCode": 1806728883,
+        "Kind": "Components.Component",
+        "Name": "PrimerParcial.Pages.Registro.R_Libro",
+        "AssemblyName": "PrimerParcial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PrimerParcial.Pages.Registro.R_Libro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PrimerParcial.Pages.Registro.R_Libro",
+          "Common.TypeNamespace": "PrimerParcial.Pages.Registro",
+          "Common.TypeNameIdentifier": "R_Libro",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
