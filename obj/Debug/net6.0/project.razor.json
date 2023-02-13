@@ -124,7 +124,7 @@
         }
       },
       {
-        "HashCode": 1930747641,
+        "HashCode": -1200274646,
         "Kind": "Components.Component",
         "Name": "PrimerParcial.Pages.Registro.R_Libro",
         "AssemblyName": "PrimerParcial",
@@ -132,6 +132,17 @@
         "TagMatchingRules": [
           {
             "TagName": "R_Libro"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "libroid",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "libroid",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
           }
         ],
         "Metadata": {
@@ -142,7 +153,7 @@
         }
       },
       {
-        "HashCode": 1806728883,
+        "HashCode": -1792187717,
         "Kind": "Components.Component",
         "Name": "PrimerParcial.Pages.Registro.R_Libro",
         "AssemblyName": "PrimerParcial",
@@ -150,6 +161,17 @@
         "TagMatchingRules": [
           {
             "TagName": "PrimerParcial.Pages.Registro.R_Libro"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "libroid",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "libroid",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
           }
         ],
         "Metadata": {

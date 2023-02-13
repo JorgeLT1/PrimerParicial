@@ -1,39 +1,77 @@
 @page "/Libro"
+@page "/Libro/{LibroId:int}"
+@inject LibroBLL LibroBll
 
-<PageTitle>Index</PageTitle>
+<EditForm Model="LibroBll">
 <div class="accordion-item">
-
     <div class="modal-header">
-
         <h1>Registro de Libro</h1>
     </div>
-
- <div class="accordion-body">
-
-    <form>           
-      <label for="libro">LibroId</label>
-      <input id="libro" type="text" name = "name">
+    <div class="accordion-body">     
+      <label for="libroid">LibroId</label>
+    <InputNumber @bind-Value="libro.LibroId" class="form-control" />
+    <button type="button" class="btn btn-primary"  @onclick="Buscar" > Buscar </button>
       <br />
       <br />
-      <label for="Titulo">Titulo</label>
-      <input id="Titulo" type="txt" name="name">
+    <label for="titulo">titulo</label>
+    <InputText @bind-Value="libro.Titulo" class="form-control" />
       <br />
       <br />
-      <label for="precio">Precio</label>
-      <input id="precio" type="txt" name="name">
-   </form>
+    <label for="Precio">Precio</label>
+    <InputNumber @bind-Value="libro.Precio" class="form-control" />
 
    </div>
-
     <div class="accordion-flush">
-        <button type="button" class="btn btn-primary">Nuevo </button>
-        <button type="button" class="btn btn-success" >Guardar</button>
-        <button type="button" class="btn btn-danger">Eliminar</button>
+        <button type="button" class="btn btn-primary"  @onclick="Nuevo" > Nuevo </button>
+        <button type="button" class="btn btn-success" @onclick="Guardar" > Guardar</button>
+        <button type="button" class="btn btn-danger"> Eliminar</button>
     </div>
-
 </div>
+</EditForm>
 
+@code {
+    [Parameter]
+    public int libroid {get; set; }
 
+    public Libro libro {get; set; } = new Libro();
 
+    protected override void OnInitialized()
+    {
+        if(libroid > 0)
+        {
+            this.libro.LibroId = libroid;
+            this.Buscar();
+        }
+    } 
+    private void Buscar()
+    {
+        if (libro.LibroId > 0)
+        {
+            var encontrado = LibroBll.Buscar(libro.LibroId);
+            Nuevo();
+            if (encontrado != null)
+                this.libro = encontrado;
+        }
+    }
 
+    public void Nuevo()
+    {
+        this.libro = new Libro();
+    }
+
+    public void Guardar()
+    {
+        var guardado = LibroBll.Guardar(libro);
+
+        if (guardado)
+        {
+            Nuevo();
+        }
+
+    }
 }
+
+
+
+
+
