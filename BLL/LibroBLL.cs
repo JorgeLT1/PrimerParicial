@@ -38,6 +38,12 @@ public class LibroBLL {
    public List <Libro> LibroList() {
       return _contexto.libro.ToList();
    }
+
+   public bool Eliminar(Libro libro)
+   {
+      _contexto.Entry(libro).State = EntityState.Deleted;
+      return _contexto.SaveChanges() > 0;
+   }
    
 }
 

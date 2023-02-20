@@ -1,0 +1,30 @@
+@page "/C_Libro"
+@inject LibroBLL LibroBll;
+
+<EditForm Model="LibroBll">
+    <div class="card">
+        <div class="card-header">
+            <h3>Consulta de Libros</h3>
+        </div>
+        </div>
+
+        <table class="table table-secondary">
+            <thead class="thead-dark">
+                <tr class="table-info">
+                    <th>LibroId</th>
+                    <th>Titulo</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in LibroBll.LibroList())
+                {
+                    <tr>
+                        <td>@item.LibroId</td>
+                        <td>@item.Titulo</td>
+                        <td>@item.Precio</td>
+                    </tr>
+                }             
+            </tbody>
+        </table>
+</EditForm>

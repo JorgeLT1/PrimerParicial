@@ -24,7 +24,7 @@
     <div class="accordion-flush">
         <button type="button" class="btn btn-primary"  @onclick="Nuevo" > Nuevo </button>
         <button type="button" class="btn btn-success" @onclick="Guardar" > Guardar</button>
-        <button type="button" class="btn btn-danger"> Eliminar</button>
+        <button type="button" class="btn btn-danger" @onclick ="Eliminar"> Eliminar</button>
     </div>
 </div>
 </EditForm>
@@ -68,6 +68,13 @@
             Nuevo();
         }
 
+    }
+    public void Eliminar()
+    {
+        if(LibroBll.Eliminar(libro))
+        {
+            Nuevo();
+        }
     }
 }
 
